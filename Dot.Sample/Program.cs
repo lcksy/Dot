@@ -11,9 +11,15 @@ namespace Dot.Sample
     {
         static void Main(string[] args)
         {
-            RunRandomLoadBalance();
-            RunRoundRobinLoadBalance();
-            RunConsistenHashLoadBalance();
+            //RunDotConfigSample();
+
+            //RunRandomLoadBalance();
+            //RunRoundRobinLoadBalance();
+            //RunConsistenHashLoadBalance();
+
+            //RunBindingFactorySample();
+
+            RunEngineSample();
 
             Console.Read();
         }
